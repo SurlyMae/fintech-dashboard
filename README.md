@@ -47,13 +47,13 @@ $ npm run start:prod
 
 ## Starting the database container
 
-````bash
+```bash
 # in its own terminal
 $ docker-compose up dev-db
 
 # in the background
 $ docker-compose up dev-db -d
-
+```
 
 ## Test
 
@@ -66,7 +66,7 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
-````
+```
 
 ## Support
 
